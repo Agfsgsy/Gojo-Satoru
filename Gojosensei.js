@@ -3503,7 +3503,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "المقدمة",
-										"description": ".1.",
+										"description": ".مرحبا بك اخي الكريم
+سوف اساعدك في بناء مشروعك
+هنا العمل تسويق الكتروني.",
 										"rowId": `${prefix}mai`
 									}
 								]
@@ -3518,12 +3520,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "قائمة المالك",
-										"description": ".3.",
+										"description": ".علي الواقدي.",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
 										"title": "قائمة المجموعات",
-										"description": ".4.",
+										"description": ".https://chat.whatsapp.com/FHKkN6M1HZ5CNwMswY9GQp.",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
